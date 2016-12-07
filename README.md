@@ -11,6 +11,18 @@ Summary: A utility for serialization of python objects.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/dill-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/dill-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/dill-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/dill-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/dill-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/dill-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dill/badges/version.svg)](https://anaconda.org/conda-forge/dill)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dill/badges/downloads.svg)](https://anaconda.org/conda-forge/dill)
+
 Installing dill
 ===============
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `dill` available on your platform 
 ```
 conda search dill --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/dill-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/dill-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/dill-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/dill-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/dill-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/dill-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dill/badges/version.svg)](https://anaconda.org/conda-forge/dill)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dill/badges/downloads.svg)](https://anaconda.org/conda-forge/dill)
 
 
 Updating dill-feedstock
