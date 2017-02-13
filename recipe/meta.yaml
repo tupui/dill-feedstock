@@ -1,16 +1,16 @@
-{% set version = "0.2.5" %}
+{% set version = "0.2.6" %}
 
 package:
     name: dill
     version: {{ version }}
 
 source:
-    fn: dill-{{ version }}.tgz
-    url: https://pypi.io/packages/source/d/dill/dill-{{ version }}.tgz
-    md5: 5b0c312f034914be2e230457747d9b6c
+    fn: dill-{{ version }}.zip
+    url: https://pypi.io/packages/source/d/dill/dill-{{ version }}.zip
+    sha256: 6c1ccca68be483fa8c66e85a89ffc850206c26373aa77a97b83d8d0994e7f1fd
 
 build:
-    number: 1
+    number: 0
     script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -18,8 +18,8 @@ requirements:
         - python
         - setuptools
     run:
-        - pyreadline  # [win]
         - python
+        - pyreadline  # [win]
 
 test:
     imports:
@@ -28,6 +28,7 @@ test:
 about:
     home: http://www.cacr.caltech.edu/~mmckerns
     license: BSD 3-Clause
+    license_file: LICENSE
     summary: 'A utility for serialization of python objects.'
 
 extra:
